@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result - Student Performance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                EduPredict
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="predict.html">Predict</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <main class="main-content container">
+        <div class="card result-container">
+            <h2 style="color: var(--text-color);">Prediction Results for <span id="studentNameDisplay" style="color: var(--primary-color);">Student</span></h2>
+            
+            <div class="score-circle" id="scoreCircle">
+                <div class="score-inner">
+                    <span class="score-value" id="scoreResult">0%</span>
+                    <span class="score-label">Predicted Score</span>
+                </div>
+            </div>
+
+            <div id="performanceLevel" class="performance-level">
+                Calculating...
+            </div>
+
+            <div class="suggestions-list card" style="background-color: var(--bg-color); box-shadow: none;">
+                <h3><i class="fa-regular fa-lightbulb" style="color: #ffc107;"></i> Suggestions for Improvement</h3>
+                <ul id="suggestionsList">
+                    <!-- Suggestions will be injected here via JS -->
+                </ul>
+            </div>
+
+            <div style="margin-top: 2rem;">
+                <a href="predict.html" class="btn btn-outline" style="margin-right: 1rem;">
+                    <i class="fa-solid fa-arrow-rotate-left"></i> Predict Again
+                </a>
+                <a href="analytics.html" class="btn btn-primary">
+                    <i class="fa-solid fa-chart-pie"></i> View Analytics
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 EduPredict - Student Performance Prediction. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
