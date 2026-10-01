@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container navbar-container">
@@ -28,7 +30,7 @@
     <main class="main-content container">
         <div class="card" style="max-width: 900px; margin: 0 auto;">
             <h2 style="text-align: center; margin-bottom: 2rem; color: var(--primary-color);">Enter Student Details</h2>
-            
+
             <form id="predictForm">
                 <div class="form-row">
                     <div class="form-group">
@@ -37,7 +39,8 @@
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="age">2. Age</label>
-                        <input type="number" id="age" class="form-control" min="10" max="100" placeholder="e.g., 20" required>
+                        <input type="number" id="age" class="form-control" min="10" max="100" placeholder="e.g., 20"
+                            required>
                     </div>
                 </div>
 
@@ -66,29 +69,34 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label class="form-label" for="studyHours">5. Study Hours per Day</label>
-                        <input type="number" id="studyHours" class="form-control" min="0" max="24" step="0.5" placeholder="e.g., 4" required>
+                        <input type="number" id="studyHours" class="form-control" min="0" max="24" step="0.5"
+                            placeholder="e.g., 4" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="attendance">6. Attendance Percentage (%)</label>
-                        <input type="number" id="attendance" class="form-control" min="0" max="100" placeholder="e.g., 85" required>
+                        <input type="number" id="attendance" class="form-control" min="0" max="100"
+                            placeholder="e.g., 85" required>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
                         <label class="form-label" for="prevScore">7. Previous Exam Score (%)</label>
-                        <input type="number" id="prevScore" class="form-control" min="0" max="100" placeholder="e.g., 78" required>
+                        <input type="number" id="prevScore" class="form-control" min="0" max="100"
+                            placeholder="e.g., 78" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="assignment">8. Assignment Score (%)</label>
-                        <input type="number" id="assignment" class="form-control" min="0" max="100" placeholder="e.g., 90" required>
+                        <input type="number" id="assignment" class="form-control" min="0" max="100"
+                            placeholder="e.g., 90" required>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
                         <label class="form-label" for="internal">9. Internal Marks (%)</label>
-                        <input type="number" id="internal" class="form-control" min="0" max="100" placeholder="e.g., 82" required>
+                        <input type="number" id="internal" class="form-control" min="0" max="100" placeholder="e.g., 82"
+                            required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="backlogs">10. Number of Backlogs</label>
@@ -99,7 +107,8 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label class="form-label" for="sleepHours">11. Sleep Hours per Day</label>
-                        <input type="number" id="sleepHours" class="form-control" min="0" max="24" placeholder="e.g., 7" required>
+                        <input type="number" id="sleepHours" class="form-control" min="0" max="24" placeholder="e.g., 7"
+                            required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="activities">12. Participation in Activities</label>
@@ -113,7 +122,8 @@
                 </div>
 
                 <div style="text-align: center; margin-top: 2rem;">
-                    <button type="submit" class="btn btn-primary" style="width: 100%; max-width: 300px; font-size: 1.1rem;">
+                    <button type="submit" class="btn btn-primary"
+                        style="width: 100%; max-width: 300px; font-size: 1.1rem;">
                         <i class="fa-solid fa-wand-magic-sparkles"></i> Predict Performance
                     </button>
                 </div>
@@ -123,10 +133,11 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 EduPredict - Student Performance Prediction. All rights reserved.</p>
+            <p> Student Performance Prediction. </p>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

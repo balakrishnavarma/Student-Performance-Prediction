@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container navbar-container">
@@ -30,32 +32,35 @@
     <main class="main-content container">
         <div style="text-align: center; margin-bottom: 2rem;">
             <h2 style="color: var(--primary-color);">Performance Analytics Dashboard</h2>
-            <p class="text-light">Visualizing academic trends and the impact of different factors on student performance.</p>
+            <p class="text-light">Visualizing academic trends and the impact of different factors on student
+                performance.</p>
         </div>
 
         <div class="charts-grid">
             <div class="card chart-card">
                 <canvas id="performanceChart"></canvas>
             </div>
-            
+
             <div class="card chart-card">
                 <canvas id="factorsChart"></canvas>
             </div>
         </div>
-        
+
         <div class="card" style="margin-top: 2rem; text-align: center;">
-             <h3>Want to see your personal analytics?</h3>
-             <p style="margin-bottom: 1.5rem;" class="text-light">Fill out the prediction form to get a personalized score and suggestions.</p>
-             <a href="predict.html" class="btn btn-primary">Go to Prediction Form</a>
+            <h3>Want to see your personal analytics?</h3>
+            <p style="margin-bottom: 1.5rem;" class="text-light">Fill out the prediction form to get a personalized
+                score and suggestions.</p>
+            <a href="predict.html" class="btn btn-primary">Go to Prediction Form</a>
         </div>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 EduPredict - Student Performance Prediction. All rights reserved.</p>
+            <p> Student Performance Prediction. </p>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
